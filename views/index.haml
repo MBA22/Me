@@ -1,0 +1,78 @@
+!!! 5
+%html{:lang=>"en"}
+%head
+  %meta{:charset=>"utf-8"}
+  %meta{:http_equiv=>"X-UA-Compatible", :content=>"IE=edge"}
+  %meta{:name=>"viewport", :content=>"width=device-width, initial-scale=1"}
+  %meta{:name=>"description", :content=>""}
+  %meta{:name=>"author", :content=>""}
+  %script{:src=>"/javascript/jquery.js"}
+  %script{:src=>"/javascript/bootstrap.min.js"}
+  %script{:src=>"/javascript/jquery.easing.min.js"}
+  %script{:type=>"text/javascript", :src=>"https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"}
+  %script{:src=>"/javascript/grayscale.js"}
+  %title Mario Barragán
+  %link{:href=>"stylesheets/bootstrap.min.css", :rel=>"stylesheet"}
+  %link{:href=>"stylesheets/grayscale.css", :rel=>"stylesheet"}
+  %link{:href=>"font-awesome/css/font-awesome.min.css", :rel=>"stylesheet", :type=>"text/css"}
+  %link{:href=>"http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic", :rel=>"stylesheet", :type=>"text/css"}
+  %link{:href=>"http://fonts.googleapis.com/css?family=Montserrat:400,700", :rel=>"stylesheet", :type=>"text/css"}
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+%body{:id=>"page-top", :data_spy=>"scroll", :data_target=>".navbar-fixed-top"}
+  %nav{:class=>"navbar navbar-custom navbar-fixed-top", :role=>"navigation"}
+    .container
+      .navbar-header
+        %button{:type=>"button", :class=>"navbar-toggle", :data_toggle=>"collapse", :data_target=>".navbar-main-collapse"}
+          %i{:class=>"fa fa-bars"}
+            %a{:class=>"navbar-brand page-scroll", :href=>"#page-top"}
+              %i{:class=>"fa fa-play-circle"}
+                %span{:class=>"light"}Ing  Mario
+      .collapse.navbar-collapse.navbar-right.navbar-main-collapse
+        %ul{:class=>"nav navbar-nav"}
+          %li{:class=>"hidden"}
+            %a{:href=>"#page-top"}
+          %li
+            %a{:class=>"page-scroll", :href=>"#about"} About
+          %li
+            %a{:class=>"page-scroll", :href=>"#contact"} Contact
+  %header{:class=>"intro"}
+    .intro-body
+      .container
+        .row
+          .col-md-8.col-md-offset-2
+            %h1{:class=>"brand-heading"} My Life
+            %p{:class=>"intro-text"} Extract of Me
+            %a{:href=>"#about", :class=>"btn btn-circle page-scroll"}
+              %i{:class=>"fa fa-angle-double-down animated"}
+  %section{:id=>"about", :class=>"container content-section text-center"}
+    .row
+      .col-lg-8.col-lg-offset-2
+        %h2 About ME
+        %p Hi!!
+        %p thanks!!
+        %p ..
+  %section{:id=>"contact", :class=>"container content-section text-center"}
+    .row
+      .col-lg-8.col-lg-offset-2
+        %h2 Contact Start Bootstrap
+        %p Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!
+        %p
+          %a{:href=>"mailto:feedback@startbootstrap.com"} feedback@startbootstrap.com
+        %ul{:class=>"list-inline banner-social-buttons"}
+          %li
+            %a{:href=>"https://twitter.com/SBootstrap", :class=>"btn btn-default btn-lg"}
+              %i{:class=>"fa fa-twitter fa-fw"}
+                %span{:class=>"network-name"}
+          %li
+            %a{:href=>"https://github.com/IronSummitMedia/startbootstrap", :class=>"btn btn-default btn-lg"}
+              %i{:class=>"fa fa-github fa-fw"}
+                %span{:class=>"network-name"}                                                                                                                                                                                                                        </li>
+          %li
+            %a{:href=>"https://plus.google.com/+Startbootstrap/posts", :class=>"btn btn-default btn-lg"}
+              %i{:class=>"fa fa-google-plus fa-fw"}
+                %span{:class=>"network-name"}
