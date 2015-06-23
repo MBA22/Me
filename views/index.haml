@@ -17,6 +17,10 @@
   %link{:href=>"font-awesome/css/font-awesome.min.css", :rel=>"stylesheet", :type=>"text/css"}
   %link{:href=>"http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic", :rel=>"stylesheet", :type=>"text/css"}
   %link{:href=>"http://fonts.googleapis.com/css?family=Montserrat:400,700", :rel=>"stylesheet", :type=>"text/css"}
+  :css
+    .col-lg-8{
+      margin-bottom: 140px;
+    }
 %body{:id=>"page-top", :data_spy=>"scroll", :data_target=>".navbar-fixed-top"}
   %nav{:class=>"navbar navbar-custom navbar-fixed-top", :role=>"navigation"}
     .container
@@ -45,18 +49,21 @@
               %i{:class=>"fa fa-angle-double-down animated"}
   %section{:id=>"about", :class=>"container content-section text-center"}
     .row
-      .col-lg-8.col-lg-offset-2
+      .col-lg-8.col-lg-offset-2.margin-bottom-140px
         %h2 About ME
-        %p Hi!!
-        %p thanks!!
-        %p ..
+        %p Hi!! My name is Mario, I am from Manzanillo, Colima in México. At the present I study the last degree of engineering in information of technology.
+
+        %p In my free time I work as a freelance in software development and computer repair, I am a linux lover, my favorite distro is Fedora and I love the open source.Recently I am involved in events like how Startup Weekend, web development and maybe in the future in mobile develop.
+
+        %p I wish to be a teacher but only the time will take this decision for me now I only want to use my experience and love to gain experience to be a better person every day of my life.
   %section{:id=>"contact", :class=>"container content-section text-center"}
     .row
       .col-lg-8.col-lg-offset-2
-        %h2 Contact Start Bootstrap
-        %p Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!
+        %h2 Contact Me
+        %p For questions or suggestions
+        %p I would like get feedback about this this page.
         %p
-          %a{:href=>"mailto:feedback@startbootstrap.com"} feedback@startbootstrap.com
+          %a{:href=>"mailto:feedback@startbootstrap.com"} mario.barragan.2012@gmail.com
         %ul{:class=>"list-inline banner-social-buttons"}
           %li
             %a{:href=>"https://twitter.com/Mario_Barragan_", :class=>"btn btn-default btn-lg"}
@@ -65,4 +72,4 @@
           %li
             %a{:href=>"https://github.com/MBA22", :class=>"btn btn-default btn-lg"}
               %i{:class=>"fa fa-github fa-fw"}
-                %span{:class=>"network-name"}                                                                                                                                                                                                                        </li>
+                %span{:class=>"network-name"}
